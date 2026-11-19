@@ -2,6 +2,10 @@ const header = document.querySelector("[data-header]");
 const menuButton = document.querySelector("[data-menu-button]");
 const navigation = document.querySelector("[data-nav]");
 const year = document.querySelector("[data-year]");
+const isEnglish = document.documentElement.lang === "en";
+const menuLabels = isEnglish
+  ? { open: "Open menu", close: "Close menu" }
+  : { open: "Menüyü aç", close: "Menüyü kapat" };
 
 const updateHeader = () => {
   header?.classList.toggle("scrolled", window.scrollY > 16);
@@ -13,14 +17,14 @@ window.addEventListener("scroll", updateHeader, { passive: true });
 menuButton?.addEventListener("click", () => {
   const isOpen = navigation?.classList.toggle("open") ?? false;
   menuButton.setAttribute("aria-expanded", String(isOpen));
-  menuButton.setAttribute("aria-label", isOpen ? "Menüyü kapat" : "Menüyü aç");
+  menuButton.setAttribute("aria-label", isOpen ? menuLabels.close : menuLabels.open);
 });
 
 navigation?.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => {
     navigation.classList.remove("open");
     menuButton?.setAttribute("aria-expanded", "false");
-    menuButton?.setAttribute("aria-label", "Menüyü aç");
+    menuButton?.setAttribute("aria-label", menuLabels.open);
   });
 });
 

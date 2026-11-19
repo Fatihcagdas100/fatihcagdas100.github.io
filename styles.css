@@ -156,6 +156,26 @@ input {
   border-radius: 999px;
 }
 
+.main-nav .lang-switch {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  place-items: center;
+  color: var(--accent);
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+  border: 1px solid rgba(85, 223, 136, 0.28);
+  border-radius: 50%;
+}
+
+.main-nav .lang-switch:hover,
+.main-nav .lang-switch:focus-visible {
+  color: #06110b;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
 .menu-button {
   display: none;
   width: 44px;
@@ -954,6 +974,14 @@ pre {
   .main-nav .nav-cta {
     margin-top: 5px;
     text-align: center;
+  }
+
+  .main-nav .lang-switch {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    padding: 11px 14px;
+    border-radius: 10px;
   }
 
   .hero {

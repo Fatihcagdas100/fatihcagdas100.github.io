@@ -9,9 +9,7 @@ GitHub Pages üzerinde yayımlanan, mobil uyumlu ve iki dilli kişisel portfolyo
 ### Özellikler
 
 - Türkçe ve İngilizce sayfalar
-- Mobil uyumlu koyu tema
 - Eğitim, deneyim, proje ve beceri bölümleri
-- Erişilebilir gezinme ve hareket azaltma desteği
 
 ### Yerel önizleme
 

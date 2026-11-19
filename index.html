@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fatih Çağdaş'ın bilgisayar mühendisliği, yapay zekâ, görüntü işleme ve yazılım projeleri portfolyosu."
+    />
+    <meta name="theme-color" content="#07110d" />
+    <meta property="og:title" content="Fatih Çağdaş | Bilgisayar Mühendisi" />
+    <meta
+      property="og:description"
+      content="Yapay zekâ, görüntü işleme ve yazılım geliştirme projeleri."
+    />
+    <meta property="og:type" content="website" />
+    <title>Fatih Çağdaş | Bilgisayar Mühendisi</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#icerik">İçeriğe geç</a>
+
+    <header class="site-header" data-header>
+      <div class="container nav-wrap">
+        <a class="brand" href="#anasayfa" aria-label="Fatih Çağdaş ana sayfa">
+          <span class="brand-mark" aria-hidden="true">FÇ</span>
+          <span>Fatih Çağdaş</span>
+        </a>
+
+        <button
+          class="menu-button"
+          type="button"
+          aria-label="Menüyü aç"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          data-menu-button
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav" id="main-nav" aria-label="Ana menü" data-nav>
+          <a href="#hakkimda">Hakkımda</a>
+          <a href="#deneyim">Deneyim</a>
+          <a href="#projeler">Projeler</a>
+          <a href="#beceriler">Beceriler</a>
+          <a class="nav-cta" href="#iletisim">İletişim</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="icerik">
+      <section class="hero" id="anasayfa">
+        <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span></span> Bilgisayar mühendisliği öğrencisi</p>
+            <h1>Fikirleri, çalışan <em>yazılımlara</em> dönüştürüyorum.</h1>
+            <p class="hero-intro">
+              Merhaba, ben Fatih. Yapay zekâ, görüntü işleme ve web teknolojileriyle
+              gerçek problemlere ölçülebilir çözümler geliştiriyorum.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projeler">Projelerimi incele</a>
+              <a class="button button-ghost" href="mailto:fatihcagdas100@gmail.com">Bana ulaş</a>
+            </div>
+            <ul class="quick-links" aria-label="Sosyal bağlantılar">
+              <li>
+                <a href="https://github.com/Fatihcagdas100" target="_blank" rel="noreferrer">
+                  GitHub <span aria-hidden="true">↗</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/fatih-çağdaş" target="_blank" rel="noreferrer">
+                  LinkedIn <span aria-hidden="true">↗</span>
+                </a>
+              </li>
+              <li><span>Kayseri, Türkiye</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Uzmanlık alanları özeti">
+            <div class="code-window">
+              <div class="window-bar" aria-hidden="true">
+                <span></span><span></span><span></span>
+                <small>fatih.py</small>
+              </div>
+              <pre><code><span class="code-muted"># Odak alanlarım</span>
+profile = {
+  <span class="code-key">"alan"</span>: <span class="code-value">"Bilgisayar Mühendisliği"</span>,
+  <span class="code-key">"üretim"</span>: [
+    <span class="code-value">"Yapay Zekâ"</span>,
+    <span class="code-value">"Görüntü İşleme"</span>,
+    <span class="code-value">"Web Geliştirme"</span>
+  ],
+  <span class="code-key">"durum"</span>: <span class="code-value">"öğreniyor &amp; üretiyor"</span>
+}</code></pre>
+            </div>
+            <div class="visual-badge badge-top">
+              <strong>2027</strong>
+              <span>Beklenen mezuniyet</span>
+            </div>
+            <div class="visual-badge badge-bottom">
+              <strong>Finalist</strong>
+              <span>TEKNOFEST 2026</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="container stats reveal" aria-label="Kısa bilgiler">
+          <div><strong>4</strong><span>öne çıkan proje</span></div>
+          <div><strong>%5</strong><span>model performans artışı</span></div>
+          <div><strong>6.</strong><span>TEKNOFEST final derecesi</span></div>
+          <div><strong>19 / 6.</strong><span>TUA Astro Hackathon</span></div>
+        </div>
+      </section>
+
+      <section class="section" id="hakkimda">
+        <div class="container split-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span></span> Hakkımda</p>
+            <h2>Merakla öğreniyor,<br />disiplinle geliştiriyorum.</h2>
+          </div>
+          <div class="about-copy reveal">
+            <p class="lead">
+              Erciyes Üniversitesi Bilgisayar Mühendisliği öğrencisiyim. Makine
+              öğrenmesi ve bilgisayarlı görü çalışmalarımı web ve donanım bilgimle
+              birleştirerek uçtan uca projeler üretmeye odaklanıyorum.
+            </p>
+            <p>
+              Akademik araştırmalardan hava savunma sistemlerine, sağlık
+              teknolojilerinden etkileşimli web uygulamalarına uzanan farklı
+              alanlarda ekip çalışması ve ürün geliştirme deneyimi edindim.
+            </p>
+            <div class="education-card">
+              <div class="education-icon" aria-hidden="true">EÜ</div>
+              <div>
+                <span class="card-label">Eğitim</span>
+                <h3>Bilgisayar Mühendisliği</h3>
+                <p>Erciyes Üniversitesi · 2022 - devam ediyor</p>
+                <small>Beklenen mezuniyet: 2027 · GNO: 2.88 / 4.00</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="deneyim">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <p class="eyebrow"><span></span> Deneyim</p>
+              <h2>Öğrendiklerimi sahada uyguluyorum.</h2>
+            </div>
+            <p>Akademik sistemlerden müşteri deneyimine, ağ sanallaştırmadan yapay zekâya.</p>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-date">Kasım 2025 - Mart 2026</div>
+              <div class="timeline-body">
+                <span class="card-label">Erciyes Üniversitesi · Kayseri</span>
+                <h3>Araştırma Dekanlığı Yazılım Geliştirici</h3>
+                <p>
+                  Akademik personelin araştırma çıktılarını, yayınlarını ve projelerini
+                  takip eden AVESİS benzeri bir akademik bilgi yönetim sistemi geliştirdim.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">Ocak 2026</div>
+              <div class="timeline-body">
+                <span class="card-label">Cucu's Coffee · Kayseri</span>
+                <h3>Web Uygulaması Geliştirme</h3>
+                <p>
+                  Müşteri sadakat sistemi, kupon yönetimi ve şans çarkı mekanizması
+                  içeren etkileşimli web platformunu geliştirip teslim ettim.
+                </p>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">29 Haziran - 27 Temmuz 2026</div>
+              <div class="timeline-body">
+                <span class="card-label">KCETAŞ · Kayseri</span>
+                <h3>Donanım Stajyeri</h3>
+                <p>
+                  Ağ sanallaştırma projesi tamamladım; farklı fiziksel sunucuları ve
+                  kurumsal donanım altyapılarını inceleme fırsatı buldum.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projeler">
+        <div class="container">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <p class="eyebrow"><span></span> Seçili projeler</p>
+              <h2>Araştırmadan çalışan ürüne.</h2>
+            </div>
+            <p>Sağlık, savunma ve uzay teknolojilerinde geliştirdiğim çalışmalar.</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card project-featured reveal">
+              <div class="project-number">01</div>
+              <div>
+                <span class="project-tag">TÜBİTAK 2209/A</span>
+                <h3>Mamografilerde Lezyon Tespiti</h3>
+                <p>
+                  Kitle ve kalsifikasyon tespiti için derin öğrenme modellerini Yapay
+                  Arı Kolonisi optimizasyonuyla geliştirerek temel yöntemlere göre %5
+                  performans artışı sağladım. Projenin sonuç raporu tamamlandı.
+                </p>
+                <ul class="tech-list" aria-label="Kullanılan teknolojiler">
+                  <li>Python</li><li>Derin Öğrenme</li><li>Optimizasyon</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-number">02</div>
+              <span class="project-tag">TEKNOFEST 2025</span>
+              <h3>Sağlıkta Yapay Zekâ</h3>
+              <p>
+                Beyin MR görüntülerinden iskemik inmenin akut ve hiperakut evrelerini
+                ayırt eden bir sınıflandırma sistemi geliştirdim. Proje PSR raporu
+                değerlendirmesini başarıyla geçti.
+              </p>
+              <ul class="tech-list"><li>MRI</li><li>Sınıflandırma</li><li>Yapay Zekâ</li></ul>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-number">03</div>
+              <span class="project-tag">TEKNOFEST 2026 · Final 6.'sı</span>
+              <h3>Çelikkubbe Hava Savunma Sistemleri</h3>
+              <p>
+                Gerçek zamanlı hedef tespiti ve takibine odaklanan görüntü işleme
+                bileşeninin geliştirilmesine katkı sağladım. Takımımız finale ulaşıp
+                yarışmayı 6. sırada tamamladı.
+              </p>
+              <ul class="tech-list"><li>OpenCV</li><li>YOLO</li><li>Hedef Takibi</li></ul>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-number">04</div>
+              <span class="project-tag">TUA Astro Hackathon · 19 takımda 6.</span>
+              <h3>Ay Navigasyon Simülasyonu</h3>
+              <p>
+                Kraterlere ve büyük kayalara çarpmadan, devrilme riskini azaltarak Ay
+                yüzeyinde ilerleyen web tabanlı bir navigasyon simülasyonunu ekiple
+                birlikte geliştirdim.
+              </p>
+              <ul class="tech-list"><li>Web</li><li>Simülasyon</li><li>Takım Çalışması</li></ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="beceriler">
+        <div class="container skills-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span></span> Beceriler</p>
+            <h2>Geniş bir teknik araç seti.</h2>
+            <p>
+              Problemi anlamaktan modeli eğitmeye, kodu ürüne dönüştürmekten donanımla
+              buluşturmaya kadar farklı katmanlarda çalışıyorum.
+            </p>
+          </div>
+          <div class="skill-groups">
+            <article class="skill-group reveal">
+              <span class="skill-icon" aria-hidden="true">AI</span>
+              <div>
+                <h3>Makine Öğrenmesi &amp; Görüntü İşleme</h3>
+                <p>Veri ön işleme · OpenCV · YOLO · Nesne tespiti · Sınıflandırma</p>
+              </div>
+            </article>
+            <article class="skill-group reveal">
+              <span class="skill-icon" aria-hidden="true">{ }</span>
+              <div>
+                <h3>Programlama</h3>
+                <p>Python · C · C# · Java</p>
+              </div>
+            </article>
+            <article class="skill-group reveal">
+              <span class="skill-icon" aria-hidden="true">HW</span>
+              <div>
+                <h3>Araçlar &amp; Donanım</h3>
+                <p>Git · GitHub · VS Code · Visual Studio · VirtualBox · Arduino · ESP32</p>
+              </div>
+            </article>
+            <article class="skill-group reveal">
+              <span class="skill-icon" aria-hidden="true">+</span>
+              <div>
+                <h3>Çalışma Becerileri</h3>
+                <p>Liderlik · Proje yönetimi · Hızlı öğrenme · Ekip çalışması</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sertifikalar">
+        <div class="container credentials-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span></span> Gelişim</p>
+            <h2>Sertifikalar &amp; diller.</h2>
+          </div>
+          <div class="credential-card reveal">
+            <span class="card-label">Sertifikalar</span>
+            <ul class="credential-list">
+              <li>TEI - Havacılık Motorları Okulu</li>
+              <li>Erciyes Üniversitesi - Onur Belgesi</li>
+              <li>TUA - Astro Hackathon</li>
+              <li>TEKNOFEST - Çelikkubbe Hava Savunma Sistemleri</li>
+              <li>BTK Akademi - Veri Bilimi için Temel İstatistik</li>
+            </ul>
+          </div>
+          <div class="credential-card reveal">
+            <span class="card-label">Diller</span>
+            <ul class="language-list">
+              <li><strong>Türkçe</strong><span>Ana dil</span></li>
+              <li><strong>İngilizce</strong><span>Profesyonel çalışma yeterliliği</span></li>
+              <li><strong>Almanca</strong><span>Temel düzey</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="iletisim">
+        <div class="container contact-card reveal">
+          <p class="eyebrow"><span></span> İletişim</p>
+          <h2>Birlikte üretmek için<br />iletişime geçelim.</h2>
+          <p>
+            Proje, staj ve iş birliği fırsatları için e-posta gönderebilir veya sosyal
+            profillerimden bana ulaşabilirsiniz.
+          </p>
+          <div class="contact-actions">
+            <a class="button button-light" href="mailto:fatihcagdas100@gmail.com">
+              fatihcagdas100@gmail.com
+            </a>
+            <a
+              class="button button-outline-light"
+              href="https://github.com/Fatihcagdas100"
+              target="_blank"
+              rel="noreferrer"
+            >GitHub profilim</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span data-year></span> Fatih Çağdaş</p>
+        <p>Tasarladı, geliştirdi ve öğrenmeye devam ediyor.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -27,9 +27,7 @@ A responsive, bilingual personal portfolio website published with GitHub Pages.
 ### Features
 
 - Turkish and English pages
-- Responsive dark theme
 - Education, experience, projects, and skills sections
-- Accessible navigation and reduced-motion support
 
 ### Local preview
 
